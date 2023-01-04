@@ -1,13 +1,13 @@
-package me.itswagpvp.metaping;
+package me.itswagpvp.metaping.bungeecord;
 
-import me.itswagpvp.metaping.commands.Ping;
-import me.itswagpvp.metaping.listener.TabCompleteHandler;
+import me.itswagpvp.metaping.bungeecord.commands.Ping;
+import me.itswagpvp.metaping.bungeecord.listener.TabCompleteHandler;
 import net.md_5.bungee.api.ProxyServer;
 import net.md_5.bungee.api.plugin.Plugin;
 
-public final class MetaPing extends Plugin {
+public final class MetaPingBungee extends Plugin {
 
-    private static MetaPing plugin;
+    private static MetaPingBungee plugin;
 
     @Override
     public void onEnable() {
@@ -23,7 +23,7 @@ public final class MetaPing extends Plugin {
         // Plugin shutdown logic
     }
 
-    public static MetaPing getInstance() {
+    public static MetaPingBungee getInstance() {
         return plugin;
     }
 

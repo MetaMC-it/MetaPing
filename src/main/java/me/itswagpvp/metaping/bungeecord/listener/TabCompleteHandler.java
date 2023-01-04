@@ -1,4 +1,4 @@
-package me.itswagpvp.metaping.listener;
+package me.itswagpvp.metaping.bungeecord.listener;
 
 import net.md_5.bungee.api.ProxyServer;
 import net.md_5.bungee.api.connection.ProxiedPlayer;

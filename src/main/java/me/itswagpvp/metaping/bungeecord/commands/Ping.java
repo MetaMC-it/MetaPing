@@ -1,6 +1,6 @@
-package me.itswagpvp.metaping.commands;
+package me.itswagpvp.metaping.bungeecord.commands;
 
-import me.itswagpvp.metaping.misc.Utils;
+import me.itswagpvp.metaping.common.Utils;
 import net.md_5.bungee.api.CommandSender;
 import net.md_5.bungee.api.ProxyServer;
 import net.md_5.bungee.api.connection.ProxiedPlayer;
